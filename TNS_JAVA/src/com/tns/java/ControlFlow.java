@@ -1,5 +1,5 @@
 package com.tns.java;
-
+import java.util.Scanner;
 public class ControlFlow {
 	public static void main(String[] args) {
 		int a = 10;
@@ -18,6 +18,23 @@ public class ControlFlow {
 		} else {
 			System.out.println("a is less than 5");
 		}
+		System.out.println(++a);
+		System.out.println(a++);
+		System.out.println(--a);
+		System.out.println(a--);
+		
+		for (int i = 0; i < args.length; i++) {
+			String string = args[i];
+			System.out.println("S");
+		}
+		while(a!=20) {
+			System.out.println(a);
+			a++;
+		}
+		char ch='A';
+		do {
+			System.out.println();
+		}while(ch!=99);
 
 	}
 
